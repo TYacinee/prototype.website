@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datasets – EVA</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="datasets-page">
+    <!-- The main section for the datasets page -->
+    <header class="hero">
+      <video autoplay muted loop playsinline id="bg-video">
+        <source src="clip rl.mp4" type="video/mp4" />
+      </video>
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>Datasets</h1>
+      </div>
+    </header>
+
+    <!-- The navigation bar -->
+    <nav class="onglets">
+      <a href="index.html">Home</a>
+      <a href="eva.html">EVA</a>
+      <a href="datasets.html">Datasets</a>
+      <a href="projects.html">Other projects</a>
+      <a href="about.html">About Me</a>
+
+      <!-- The menu -->
+      <div class="floating-menu" aria-label="Main menu">
+        <button class="menu-btn" title="Menu">
+          <img src="SHINYLOGO.jpg" alt="Menu icon" />
+        </button>
+        <div class="dropdown">
+          <a href="index.html">🏠 Home</a>
+          <a href="eva.html">🤖 EVA</a>
+          <a href="datasets.html">📊 Datasets</a>
+          <a href="projects.html">🎮 Other Projects</a>
+          <a href="about.html">👤 About Me</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- the content for the datasets page -->
+    <main class="content">
+      <section class="section-flex middle fade-in">
+        <div class="section-text">
+          <h2>Data Collected for EVA</h2>
+          <p>
+            All Rocket League match data collected via the Ballchasing API is
+            stored here. These datasets allow EVA to analyze gameplay, evaluate
+            performance, and provide meaningful feedback to players.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-flex middle fade-in">
+        <div class="section-text">
+          <h2>Info for the future</h2>
+          <p>
+            I will add here all the datasets that I used for the different
+            projects that I will present on this website. Stay tuned for
+            updates!
+          </p>
+        </div>
+      </section>
+
+      <!--  The in progression section  -->
+      <section class="section-flex middle fade-in in-progress">
+        <div class="section-text">
+          <h2>IN PROGRESS</h2>
+          <p>This section will be completed later.</p>
+          <img src="PROGRESS.jpg" alt="Coming soon" class="moyenne" />
+        </div>
+      </section>
+    </main>
+
+    <!-- The footer -->
+    <footer class="footer">
+      <p>© 2025 - Touileb Yacine | All rights reserved</p>
+    </footer>
+
+    <!-- Fade-in scroll that is in the js -->
+    <script src="scrollFade.js"></script>
+  </body>
+</html>

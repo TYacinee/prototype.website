@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me – EVA</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="about-page">
+    <!-- The main section for the about me page -->
+    <header class="hero">
+      <video autoplay muted loop playsinline id="bg-video">
+        <source src="clip rl.mp4" type="video/mp4" />
+      </video>
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>About Me</h1>
+      </div>
+    </header>
+
+    <!-- The navigation bar -->
+    <nav class="onglets">
+      <a href="index.html">Home</a>
+      <a href="eva.html">EVA</a>
+      <a href="datasets.html">Datasets</a>
+      <a href="projects.html">Other projects</a>
+      <a href="about.html">About Me</a>
+
+      <!-- The menu -->
+      <div class="floating-menu" aria-label="Main menu">
+        <button class="menu-btn" title="Menu">
+          <img src="SHINYLOGO.jpg" alt="Menu icon" />
+        </button>
+        <div class="dropdown">
+          <a href="index.html">🏠 Home</a>
+          <a href="eva.html">🤖 EVA</a>
+          <a href="datasets.html">📊 Datasets</a>
+          <a href="projects.html">🎮 Other Projects</a>
+          <a href="about.html">👤 About Me</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- The content for the about me page -->
+    <main class="content">
+      <section class="section-flex middle fade-in">
+        <div class="section-text">
+          <h2>About Me</h2>
+          <p>
+            I am currently in my third year of the CPES program in Data Science,
+            Arts and Culture at Université Paris Sciences et Lettres and Lycée
+            Louis-le-Grand. Throughout my studies, I have gained solid
+            experience with various data science tools, and I particularly enjoy
+            using them to shed light on, or critically explore, cultural
+            phenomena. My main areas of interest include video games, music, and
+            animation, fields that inspire me to connect data-driven methods
+            with creative and cultural questions.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-flex middle fade-in">
+        <div class="section-text">
+          <h2>Info for the future</h2>
+          <p>
+            Once everything is complete, I will add more personal information,
+            like my contact email and links to my projects. Stay tuned!
+          </p>
+        </div>
+      </section>
+
+      <!-- The in progression section -->
+      <section class="section-flex middle fade-in in-progress">
+        <div class="section-text">
+          <h2>IN PROGRESS</h2>
+          <p>This section will be completed later.</p>
+          <img src="PROGRESS.jpg" alt="Coming soon" class="moyenne" />
+        </div>
+      </section>
+    </main>
+
+    <!-- The footer -->
+    <footer class="footer">
+      <p>© 2025 - Touileb Yacine | All rights reserved</p>
+    </footer>
+
+    <!-- Fade-in scroll that is in the js -->
+    <script src="scrollFade.js"></script>
+  </body>
+</html>
